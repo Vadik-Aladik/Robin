@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robin W.</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+</head>
+<body class="body">
+    <div class="modal">
+        <nav class=" navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#experience" class="navigation__link">Experience</a></li>
+                <li class="navigation__item"><a href="#work" class="navigation__link">Work</a></li>
+                <li class="navigation__item"><a href="#photography" class="navigation__link">Photography</a></li>
+                <li class="navigation__item navigation__item--active"><a href="#contact" class="navigation__link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="header">
+        <div class="header__container container">
+            <img src="public/svg/logo_header.svg" alt="header logo" class="header__logo">
+
+            <nav class="header__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#experience" class="navigation__link">Experience</a></li>
+                    <li class="navigation__item"><a href="#work" class="navigation__link">Work</a></li>
+                    <li class="navigation__item"><a href="#photography" class="navigation__link">Photography</a></li>
+                    <li class="navigation__item navigation__item--active"><a href="#contact" class="navigation__link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button id="burger"></button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="preview">
+            <div class="preview__back"></div>
+            <div class="preview__container container">
+                <picture>
+                    <source media="(max-width: 630px)" srcset="public/image/image_preview_mobile.jpg" width="360" />
+                    <source media="(max-width: 768px)" srcset="public/image/image_preview_tablet.jpg" width="384" />
+                    <img src="public/image/image_preview.jpg" alt="Image of Robin Williams" width="750" height="650" class="preview__image">
+                </picture>
+
+                <div class="preview__description">
+                    <h1 class="preview__title">
+                        I’m Robin Williams. <br>A Product Designer <br><span class="preview__title--opacity">based in Italy.</span>
+                    </h1>
+                    <p class="preview__body">I’m probably the most passionate designer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="experience__container padding__content container">
+                <b class="experience__subtitle">work experience</b>
+                <h2 class="experience__title">Companies I have worked for in the past</h2>
+
+                <div class="experience__card card">
+                    <div class="card__item">
+                        <h3 class="card__numeric">01</h3>
+                        <div class="card__title"><span class="card__title--google">Google</span>, Interaction Designer</div>
+                        <p class="card__body">I currently am the lead designer on the interaction design team for Google Play.</p>
+                    </div>
+
+                    <div class="card__item">
+                        <h3 class="card__numeric">02</h3>
+                        <div class="card__title"><span class="card__title--facebook">Facebook</span>, Product Designer</div>
+                        <p class="card__body">I’ve worked on a wide variety of internal tools for facebook over the past 6 years.</p>
+                    </div>
+
+                    <div class="card__item">
+                        <h3 class="card__numeric">03</h3>
+                        <div class="card__title"><span class="card__title--dribbble">Dribbble</span>, Graphic Designer</div>
+                        <p class="card__body">I started my design career with Dribbble. I was incharge of creating illustrations for the platform.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="philosophy">
+            <div class="philosophy__container container">
+                <div class="philosophy__left">
+                    <h2 class="philosophy__title">Philosophy & values</h2>
+                    <p class="philosophy__body">I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: authenticity, creativity, & hospitality.</p>
+                    <a href="#" class="title__border philosophy__about">More about me</a>
+                </div>
+                <div class="philosophy__right"></div>
+            </div>
+        </section>
+
+        <section class="skill container">
+            <div class="skill__container padding__content">
+                <div class="skill__description">
+                    <h2 class="skill__title">Skillset</h2>
+                    <p class="skill__body">With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.</p>
+                </div>
+
+                <div class="skill__card">
+                    <article class="skill__card--item">
+                        <img src="public/svg/skill_product.svg" width="32" height="32" alt="logo article product design">
+                        <b class="skill__card--title">Product Design</b>
+                        <p class="skill__card--body">Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.</p>
+                    </article>
+
+                    <article class="skill__card--item">
+                        <img src="public/svg/skill_visual.svg" width="32" height="32" alt="logo article visual design">
+                        <b class="skill__card--title">Visual Design</b>
+                        <p class="skill__card--body">My experience at dribbble has helped me learn to develop the eye for design. Colors, typography, layout and the whole package.</p>
+                    </article>
+
+                    <article class="skill__card--item">
+                        <img src="public/svg/skill_motion.svg" width="32" height="32" alt="logo article motion design">
+                        <b class="skill__card--title">Motion Design</b>
+                        <p class="skill__card--body">I started my design journey with motion design in my college days. Motion is something that really fascinates me because of the flexibility of story telling. </p>
+                    </article>
+
+                    <article class="skill__card--item">
+                        <img src="public/svg/skill_photography.svg" width="32" height="32" alt="logo article photography design">
+                        <b class="skill__card--title">Photography</b>
+                        <p class="skill__card--body">Clicking pictures really brings out the creative in me. Phtography really makes you look and percieve things in a different way.</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="skill__company">
+                <div class="skill__company--item">
+                    <img src="public/svg/logo_cbre.svg" height="30" alt="logo cbre company">
+                </div>
+                <div class="skill__company--item">
+                    <img src="public/svg/logo_epiq.svg" height="30" alt="logo epiq company">
+                </div>
+                
+                <div class="skill__company--item">
+                    <img src="public/svg/logo_p.svg" height="30" alt="logo p company">
+                </div>
+
+                <div class="skill__company--item">
+                    <img src="public/svg/logo_green.svg" height="30" alt="logo green company">
+                </div>
+                
+                <div class="skill__company--item">
+                    <img src="public/svg/logo_PlaceforMom.svg"  height="30" alt="logo PlaceforMom company">
+                </div>
+                
+                <div class="skill__company--item">
+                    <img src="public/svg/logo_m.svg" height="30" alt="logo m company">
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="work" class="project">
+            <div class="project__container padding__content container">
+                <div class="project__column">
+                    <div class="project__description">
+                        <b class="project__subtitle">MY PROJECTS</b>
+                        <h2 class="project__title">Work that I’ve done for the past 8 years</h2>
+                    </div>
+
+                    <article class="project__card">
+                        <img src="public/image/Rectangle 41-3.jpg" width="636" height="620" alt="image works Robin Williams">
+                        <div class="project__card--description">
+                            <h3 class="project__card--title">Restaurant Website Design</h3>
+                            <p class="project__card--body">I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.</p>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <img src="public/image/Rectangle 41.jpg" width="636" height="620" alt="image works Robin Williams">
+                        <div class="project__card--description">
+                            <h3 class="project__card--title">Restaurant Website Design</h3>
+                            <p class="project__card--body">I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="project__column">
+                    <article class="project__card">
+                        <img src="public/image/Rectangle 41-1.jpg" width="636" height="620" alt="image works Robin Williams">
+                        <div class="project__card--description">
+                            <h3 class="project__card--title">Restaurant Website Design</h3>
+                            <p class="project__card--body">I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.</p>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <img src="public/image/Rectangle 41-2.jpg" width="636" height="620" alt="image works Robin Williams">
+                        <div class="project__card--description">
+                            <h3 class="project__card--title">Restaurant Website Design</h3>
+                            <p class="project__card--body">I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.</p>
+                        </div>
+                    </article>
+
+                    <button class="button project__button">VIeW ALL PROJECTS</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="society">
+            <div class="society__container container">
+                <div class="society__left">
+                    <h2 class="society__title">Instagram</h2>
+                    <p class="society__body">If you area a person who enjoys photography, then I highly recommend that you check out my Instagram. I’m an avid traveller and I capture the best moments that I would love to cherish with the world</p>
+                    <a href="#" class="title__border society__follow">Follow me on IG</a>
+                </div>
+                <div class="society__right">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="dribble">
+            <div class="dribble__container container">
+                <div class="dribble__description">
+                    <div class="dribble__title">Dribbble</div>
+                    <div class="dribble__body">Each dribbble shot is made with love and care. Do check out my work on Dribbble. Likes and comments are appreciated.</div>
+                    <a href="#" class="title__border dribble__follow">Follow me on Dribbble</a>
+                </div>
+
+                <div class="dribble__image">
+                    <div class="dribble__header">
+                        <span class="dribble__circle"></span>
+                        <span class="dribble__circle"></span>
+                        <span class="dribble__circle"></span>
+                    </div>
+                    <picture>
+                        <source media="(max-width: 360px)" srcset="public/image/image_dribbble_mobile.jpg" width="320" height="480" />
+                        <img src="public/image/image_dribbble.jpg" width="1076" height="640" alt="styles window Dribbble">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me">
+            <div class="about-me__container padding__content container">
+                <div class="about-me__description">
+                    <div class="about-me__title">This is what people say about me</div>
+                    <div class="about-me__body">Here are a few lines from people who I have worked with over the past 8+ years in my design career.</div>
+                    <a href="#" class="title__border">See all testimonials</a>
+                </div>
+
+                <div class="about-me__card">
+                    <article class="about-me--item">
+                        <img src="public/image/image_about.jpg" width="636" height="360" alt="about me from company 1" class="about-me--image">
+                        <div class="about-me--description">
+                            <p class="about-me--body">‘’Robin is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design.’’</p>
+                            <div class="about-me--from">
+                                <b class="about-me--name">Richard Owens</b>
+                                <b class="about-me--company">CEO, Company 1</b>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="about-me--item">
+                        <img src="public/image/image_about_1.jpg" width="636" height="360" alt="about me from company 2" class="about-me--image">
+                        <div class="about-me--description">
+                            <p class="about-me--body">‘’I think Robin has an incredible gift. It has been an absolute pleasure to work with a designer of this caliber.’’</p>
+                            <div class="about-me--from">
+                                <b class="about-me--name">Emily Parker</b>
+                                <b class="about-me--company">CEO, Company 2</b>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="about-me--item">
+                        <img src="public/image/image_about_2.jpg" width="636" height="360" alt="about me from company 3" class="about-me--image">
+                        <div class="about-me--description">
+                            <p class="about-me--body">‘’All I can say that, Robin is a phenomenal designer. The wavelength at which he thinks is astoundaing. I love the focus, passion and attention to detial in the design.’’</p>
+                            <div class="about-me--from">
+                                <b class="about-me--name">Vincent  Rudd</b>
+                                <b class="about-me--company">CEO, Company 1</b>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="photography" class="photo">
+            <div class="photo__container padding__content container">
+                <div class="photo__description">
+                    <h2 class="photo__title">Photography</h2>
+                    <p class="photo__body">Here is a collection of my best travel pictures that I took while travelling places all around the world. </p>
+                </div>
+                <ul class="country__list">
+                    <li class="country__item"><input type="radio" name="country" id="italy" checked><label for="italy">italy</label></li>
+                    <li class="country__item"><input type="radio" name="country" id="australia"><label for="australia">australia</label></li>
+                    <li class="country__item"><input type="radio" name="country" id="india"><label for="india">india</label></li>
+                    <li class="country__item"><input type="radio" name="country" id="brazil"><label for="brazil">brazil</label></li>
+                </ul>
+                <div class="country__image"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact__container container">
+                <div class="contact__description">
+                    <h2 class="contact__title">Let’s get started</h2>
+                    <p class="contact__body">Now that you know a lot about me, let me know if you are interested to work with me.</p>
+                </div>
+
+                <form id="form" class="contact__form" action="#" method="POST">
+                    <input class="contact__field none" type="text" name="user_">
+                    <label class="contact__label" for="user_name">
+                        Name
+                        <input class="contact__field" type="text" name="user_name">
+                    </label>
+
+                    <label class="contact__label" for="user_name">
+                        Email
+                        <input class="contact__field" type="email" name="user_email">
+                    </label>
+
+                    <label class="contact__label" for="user_name">
+                        Message
+                        <textarea class="contact__field" name="user_message" id=""></textarea>
+                    </label>
+
+                    <input class="button" type="submit" value="Let’s get started">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="public/svg/logo_header.svg" width="130" height="40" alt="footer logo site">
+                    <div class="footer__society">
+                        <a href="#"><img src="public/svg/Vector.svg" width="24" height="24" alt="twitter icon"></a>
+                        <a href="#"><img src="public/svg/Vector-2.svg" width="24" height="24" alt="deibble icon"></a>
+                        <a href="#"><img src="public/svg/Vector-1.svg" width="24" height="24" alt="linkedin icon"></a>
+                    </div>
+                </div>
+
+                <nav class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">Home</li>
+                        <li class="footer__item">About</li>
+                        <li class="footer__item">Work</li>
+                        <li class="footer__item">Process</li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class="footer__item">Store</li>
+                        <li class="footer__item">Blog</li>
+                        <li class="footer__item">Reading List</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <p class="footer__rights">
+                Not Copyright 2020 • Robin Williams.<br> Webflow cloneable
+            </p>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script src="script/form.js"></script>
+</body>
+</html>
